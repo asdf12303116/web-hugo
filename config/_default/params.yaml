@@ -23,7 +23,7 @@ scheme: Gemini
 
 # 开启暗模式
 # Dark Mode
-darkmode: true
+darkmode: false
 
 
 # 站点基本信息
@@ -148,7 +148,7 @@ siteState:
   # 站点访问信息
   # Site information
   views: 
-    enable: true
+    enable: false
     # 组件类型，可选值为： 51la, busuanzi
     # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
     # Plguin value is: 51la, busuzazi
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
+  #social0: Github || https://github.com/elkan1788 || fab fa-github
   #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -205,8 +205,8 @@ linksSets:
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  #link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  #link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -269,16 +269,16 @@ footer:
   beian:
     enable: true
     # ICP 备案的具体信息
-    icp: 粤ICP备 18047355-1 号
+    icp: 陕ICP备2025060028号-1
     # 公安网备的省份简称
-    provinceAbbr: 沪
+    provinceAbbr: 陕
     # 公安网备案号
-    gonganNum: 31011402009770
+    gonganNum: 
 
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
@@ -338,7 +338,7 @@ postMeta:
       plugin: waline
     # 是否开启页面访问数显示
     views:
-      enable: true
+      enable: false
       # 页面访问统计插件，支持busuanzi, waline, leancloud
       # Page views counter plugin, support: busuanzi, waline, leancloud
       plugin: busuanzi
@@ -360,7 +360,7 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
@@ -384,14 +384,14 @@ rewardSets:
 followMe:
   #channel0: Twitter || https://twitter.com/username || fab fa-twitter
   #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-  channel3: RSS || /atom.xml || fa fa-rss
+  #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+  #channel3: RSS || /atom.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
-  enable: true
+  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -487,7 +487,7 @@ bookmark:
 githubBanner:
   # 是否开启显示
   # If true, will display banner.
-  enable: true
+  enable: false
   # 你的 Github 仓库地址
   # Your repository url on Github.
   permalink: https://github.com/hugo-next
@@ -642,7 +642,7 @@ quicklink:
 comments:
   # 开启评论组件
   # If true, will show comment component in post end.
-  enable: true   
+  enable: false   
   # 设置默认使用的评论插件
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
